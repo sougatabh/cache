@@ -1,0 +1,4 @@
+This is a simple implementation of LRU cache algorithm using Java.
+To set the cache size you have to set the cache-config.property file.
+Each cache object can be set to a Time to Live, while putting the cache object 
+you should be able to mention, cachemgr.put(key,value,millis),  To get the data from the cache you need to call cachemgr.get(key).
